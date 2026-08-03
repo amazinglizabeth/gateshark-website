@@ -21,7 +21,7 @@ export const bannerData: BannerContent = {
   description:
     'GateShark replaces manual access processes with a connected platform where residents send visitor invitations, security verifies arrivals, and administrators have complete visibility into access activity.',
   ctaText: 'Book a Demo',
-  ctaIcon: '/workflow/calendar.png',
-  phoneImgUrl: '/workflow/phone.png',
-  buildingImgUrl: '/workflow/building.png',
+  ctaIcon: '/workflow/calendar.svg',
+  phoneImgUrl: '/workflow/phone.svg',
+  buildingImgUrl: '/workflow/building.svg',
 };

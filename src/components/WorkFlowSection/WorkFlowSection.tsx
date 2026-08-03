@@ -50,8 +50,8 @@ const WorkflowSection: React.FC = () => {
             </p>
           </div>
 
-          <div>
-            <button className="bg-[#9bf072] text-[#132C24] text-[16px] font-medium px-6 py-3.5 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition">
+          <div className="-mt-6">
+            <button className="bg-[#9bf072] text-[#132C24] text-[16px] font-medium px-4 py-3.5 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition">
               <img
                 src={bannerData.ctaIcon}
                 alt=""

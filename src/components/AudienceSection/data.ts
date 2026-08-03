@@ -8,17 +8,17 @@ export const audienceHeader = {
 
 export const roleCards: RoleCard[] = [
   {
-    imgUrl: '/audience/resident.png',
+    imgUrl: '/audience/residents.svg',
     title: 'Residents send invitations',
     description: 'Create secure digital invitations for their visitors in seconds.',
   },
   {
-    imgUrl: '/audience/security.png',
+    imgUrl: '/audience/security.svg',
     title: 'Security Teams',
     description: 'Verify visitors quickly without relying on paper logs or phone calls.',
   },
   {
-    imgUrl: '/audience/administrator.png',
+    imgUrl: '/audience/administrator.svg',
     title: 'Administrators',
     description: 'Monitor access activity and oversee your entire estate or workplace from one platform.',
   },
