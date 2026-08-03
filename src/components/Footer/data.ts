@@ -10,7 +10,7 @@ export const footerLinks: FooterLink[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { iconUrl: '/footer/facebook.png', alt: 'Facebook', href: '#' },
-  { iconUrl: '/footer/instagram.png', alt: 'Instagram', href: '#' },
-  { iconUrl: '/footer/twitter.png', alt: 'X (Twitter)', href: '#' },
+  { iconUrl: '/footer/facebook.svg', alt: 'Facebook', href: '#' },
+  { iconUrl: '/footer/instagram.svg', alt: 'Instagram', href: '#' },
+  { iconUrl: '/footer/twitter.svg', alt: 'X (Twitter)', href: '#' },
 ];

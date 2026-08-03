@@ -9,14 +9,19 @@ const HeroSection: React.FC = () => {
         style={{ backgroundImage: `url("${heroData.bgImageUrl}")` }}
       />
 
+      <div className="absolute inset-0 w-full h-full bg-[radial-gradient(ellipse_at_top,#132C24_0%,transparent_75%)] opacity-80 pointer-events-none z-0" />
+
       <div className="relative z-10">
-        <header className="sticky top-0 z-50 bg-black/20 backdrop-blur-sm border-b border-white/10">
+        <header className="sticky top-0 z-50 bg-transparent">
           <div className="max-w-360 mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between">
-            <a href="#" className="flex items-center gap-2 max-w-35 sm:max-w-[176.15px] max-h-13">
+            <a
+              href="#"
+              className="flex items-center gap-2 max-w-35 sm:max-w-[176.15px] max-h-13"
+            >
               <img
-                src="/hero/logo.png"
+                src="/hero/logo.svg"
                 alt="GateShark Logo"
-                className="h-6 sm:h-8 w-auto"
+               className="h-12 md:h-14 w-auto object-contain"
               />
             </a>
 
@@ -60,33 +65,33 @@ const HeroSection: React.FC = () => {
                 />
                 <span>{heroData.primaryCtaText}</span>
               </button>
-              <button className="w-full sm:w-auto border border-white/20 bg-black/20 backdrop-blur-sm text-[#B2ED97] font-medium text-[15px] sm:text-[16px] px-6 py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-white/10 transition">
+              <button className="w-full sm:w-auto border border-[#9BF072]/40 bg-transparent text-[#B2ED97] font-medium text-[15px] sm:text-[16px] px-3.5 py-2.5 sm:py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#9BF072]/10 transition-all">
                 <img
                   src={heroData.secondaryCtaIcon}
                   alt=""
-                  className="w-4 h-4 object-contain"
+                  className="w-5 h-5 object-contain"
                 />
                 <span>{heroData.secondaryCtaText}</span>
               </button>
             </div>
           </div>
 
-          <div className="max-w-7xl mx-auto mt-10 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+          <div className="max-w-7xl mx-auto mt-10 sm:mt-16 grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-3 items-stretch">
             {/* Left: Dashboard Image Container */}
-            <div className="md:col-span-2 overflow-hidden flex items-center justify-center">
+            <div className="md:col-span-2 overflow-hidden flex items-center justify-center md:justify-end">
               <img
                 src={heroData.dashboardImgUrl}
                 alt="Dashboard preview"
-                className="object-contain max-w-194 max-h-109.75 sm:max-h-125"
+                className="object-contain w-full max-w-194 max-h-109.75 sm:max-h-125"
               />
             </div>
 
             {/* Right: Verification Card Image Container */}
-            <div className="overflow-hidden flex items-center justify-center">
+            <div className="overflow-hidden flex items-center justify-center md:justify-start">
               <img
                 src={heroData.cardImgUrl}
                 alt="Instant Verification Card"
-                className="object-contain max-w-[320px] max-h-109.75 sm:max-h-125"
+                className="object-contain w-full max-w-[320px] max-h-109.75 sm:max-h-125"
               />
             </div>
           </div>

@@ -13,16 +13,22 @@ const FAQSection: React.FC = () => {
 
         <div className="space-y-4">
           {faqList.map((faq, idx) => (
-            <div key={idx} className="bg-gray-50 rounded-2xl overflow-hidden border border-gray-100">
+            <div
+              key={idx}
+              className="bg-[#F7F7F7] rounded-[20px] overflow-hidden transition-all"
+            >
               <button
                 onClick={() => setOpenIdx(openIdx === idx ? null : idx)}
-                className="w-full text-left p-5 font-medium text-[18px] text-[#132C24] flex justify-between items-center text-sm md:text-base"
+                className="w-full text-left font-medium text-[16px] sm:text-[18px] text-[#132C24] flex justify-between items-center px-5 pt-4 pb-3"
               >
                 <span>{faq.question}</span>
-                <span className="text-xl">{openIdx === idx ? '−' : '+'}</span>
+                <span className="text-xl font-normal leading-none ml-4">
+                  {openIdx === idx ? '—' : '+'}
+                </span>
               </button>
+
               {openIdx === idx && (
-                <div className="px-5 pb-5 text-[#6D6D6D] font-[regular] text-[16px] border-t border-gray-100/50 pt-3">
+                <div className="mx-2 mb-2 bg-white rounded-xl p-3.5 text-[#6D6D6D] font-normal text-[15px] sm:text-[16px] leading-relaxed">
                   {faq.answer}
                 </div>
               )}

@@ -11,10 +11,10 @@ export const heroData: HeroContent = {
   description:
     'Residents send visitor invitations, security verifies every arrival, and administrators stay informed. All from one platform.',
   primaryCtaText: 'Book a Demo',
-  primaryCtaIcon: '/hero/calendar.png',
+  primaryCtaIcon: '/hero/calendar.svg',
   secondaryCtaText: 'See How It Works',
-  secondaryCtaIcon: '/hero/video-circle.png',
+  secondaryCtaIcon: '/hero/video-circle.svg',
   bgImageUrl: '/hero/bg-image.jpg',
-  dashboardImgUrl: '/hero/dashboard.png',
-  cardImgUrl: '/hero/card.png',
+  dashboardImgUrl: '/hero/dashboard.svg',
+  cardImgUrl: '/hero/card.svg',
 };
