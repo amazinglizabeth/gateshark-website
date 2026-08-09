@@ -8,32 +8,32 @@ export const featuresHeader: FeaturesGridHeader = {
 
 export const featuresList: FeatureItem[] = [
   {
-    iconImg: "/features/invite.png",
+    iconImg: "/features/invite.svg",
     title: "Invite visitors in seconds",
     desc: "Create secure digital invitations in just a few taps.",
   },
   {
-    iconImg: "/features/verify.png",
+    iconImg: "/features/verify.svg",
     title: "Verify every arrival confidently",
     desc: "Check visitor invitations quickly and securely at the gate.",
   },
   {
-    iconImg: "/features/manage.png",
+    iconImg: "/features/manage.svg",
     title: "Manage deliveries and vendors",
     desc: "Handle contractors, artisans, service providers, and deliveries through one simple workflow.",
   },
   {
-    iconImg: "/features/records.png",
+    iconImg: "/features/records.svg",
     title: "Keep complete access records",
     desc: "Maintain a complete digital history of visitor entries and exits.",
   },
   {
-    iconImg: "/features/notify.png",
+    iconImg: "/features/notify.svg",
     title: "Notify residents in real time",
     desc: "Keep residents informed when visitors arrive.",
   },
   {
-    iconImg: "/features/dashboard.png",
+    iconImg: "/features/dashboard.svg",
     title: "Manage everything from one dashboard",
     desc: "Control residents, users, permissions, and access activity from a single place.",
   },

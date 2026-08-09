@@ -6,7 +6,7 @@ const FeaturesGridSection: React.FC = () => {
     <section id="features" className="py-20 px-6 bg-[#FAFAFA]">
       <div className="max-w-300 mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         <div className="space-y-4">
-          <h2 className="text-3xl md:text-4xl font-medium text-[57px] text-[#132C25] leading-tight whitespace-pre-line">
+          <h2 className="text-3xl md:text-4xl sm:text-3x1 font-medium lg:text-[57px] text-[#132C25] leading-tight whitespace-pre-line">
             {featuresHeader.title}
           </h2>
           <p className="font-gelix-TRIAL text-[#4A4A4A] text-[18px] font-[regular] leading-relaxed">
