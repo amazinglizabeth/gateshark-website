@@ -29,7 +29,7 @@ const AudienceSection: React.FC = () => {
               <h3 className="font-medium text-lg sm:text-[24px] text-[#132C24]">
                 {card.title}
               </h3>
-              <p className="text-[#6D6D6D] text-sm sm:text-[16px] font-normal leading-relaxed">
+              <p className="text-[#6D6D6D] text-sm sm:text-[16px] font-normal leading-tight whitespace-pre-line">
                 {card.description}
               </p>
             </div>

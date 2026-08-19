@@ -10,7 +10,7 @@ export const roleCards: RoleCard[] = [
   {
     imgUrl: '/audience/residents.svg',
     title: 'Residents send invitations',
-    description: 'Create secure digital invitations for their visitors in seconds.',
+    description: 'Create secure digital invitations for their visitors in\nseconds.',
   },
   {
     imgUrl: '/audience/security.svg',
@@ -20,6 +20,6 @@ export const roleCards: RoleCard[] = [
   {
     imgUrl: '/audience/administrator.svg',
     title: 'Administrators',
-    description: 'Monitor access activity and oversee your entire estate or workplace from one platform.',
+    description: 'Monitor access activity and oversee your entire estate\nor workplace from one platform.',
   },
 ];
