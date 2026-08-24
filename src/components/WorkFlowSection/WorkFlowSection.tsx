@@ -3,16 +3,14 @@ import { workflowSteps, bannerData } from "./data";
 
 const WorkflowSection: React.FC = () => {
   return (
-    <section id="how-it-works" className="py-12 sm:py-20 bg-white space-y-12 sm:space-y-16">
+    <section id="how-it-works" className="pt-12 sm:pt-20 pb-0 mb-0 bg-white space-y-12 sm:space-y-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
         {/* Workflow Steps */}
         <div className="space-y-6 sm:space-y-8">
           {workflowSteps.map((step) => (
             <div
               key={step.id}
-              className={`space-y-1.5 sm:space-y-2 pl-4 border-l-2 ${
-                step.description ? "border-[#337357]" : "border-gray-200"
-              }`}
+              className="space-y-1.5 sm:space-y-2 pb-6 sm:pb-8 border-b border-gray-100 last:border-b-0"
             >
               <h3
                 className={`text-lg sm:text-[24px] font-medium ${
@@ -43,7 +41,7 @@ const WorkflowSection: React.FC = () => {
       {/* Banner Section */}
       <div className="w-full grid grid-cols-1 md:grid-cols-5 overflow-hidden">
         {/* Left: Green Text Content */}
-        <div className="md:col-span-3 bg-[#1b5e39] text-white p-6 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between space-y-8 sm:space-y-10">
+        <div className="md:col-span-3 bg-[#1b5e39] text-white p-6 xs:p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between space-y-8 sm:space-y-10">
           <div className="space-y-4 sm:space-y-6 max-w-xl">
             {/* ─── Fixed Heading Responsiveness ─── */}
             <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium leading-tight sm:leading-[1.15]">
