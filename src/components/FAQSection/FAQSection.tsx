@@ -19,7 +19,7 @@ const FAQSection: React.FC = () => {
             >
               <button
                 onClick={() => setOpenIdx(openIdx === idx ? null : idx)}
-                className="w-full text-left font-medium text-[15px] sm:text-[18px] text-[#132C24] flex justify-between items-center px-4 sm:px-5 pt-4 pb-3"
+                className="w-full text-left font-medium text-[15px] sm:text-[18px] text-[#132C24] flex justify-between items-center px-4 sm:px-5 pt-4 pb-3 cursor-pointer"
               >
                 <span>{faq.question}</span>
                 <span className="text-xl font-normal leading-none ml-4 select-none">

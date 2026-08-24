@@ -17,7 +17,10 @@ const SecurityBannerSection: React.FC = () => {
           </div>
 
           <div>
-            <button className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition">
+            <a
+              href="mailto:sales@gateshark.net"
+              className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition cursor-pointer"
+            >
               <img
                 src={securityBannerData.ctaIcon}
                 alt=""
@@ -26,7 +29,7 @@ const SecurityBannerSection: React.FC = () => {
               <span className="text-sm sm:text-[16px] text-[#132C24] font-medium">
                 {securityBannerData.ctaText}
               </span>
-            </button>
+            </a>
           </div>
         </div>
 

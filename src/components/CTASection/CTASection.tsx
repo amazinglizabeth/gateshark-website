@@ -17,7 +17,7 @@ const CTASection: React.FC = () => {
         </p>
 
         <div>
-          <button className="bg-slate-900 text-white text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-3 sm:py-3.5 rounded-xl hover:bg-slate-800 transition">
+          <button className="bg-slate-900 text-white text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-3 sm:py-3.5 rounded-xl hover:bg-slate-800 transition cursor-pointer">
             {ctaData.buttonText}
           </button>
         </div>

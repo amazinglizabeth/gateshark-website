@@ -59,7 +59,7 @@ const HeroSection: React.FC = () => {
             <button
               onClick={toggleMobileMenu}
               type="button"
-              className="md:hidden p-2 rounded-lg text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none"
+              className="md:hidden p-2 rounded-lg text-gray-300 hover:text-white hover:bg-white/10 focus:outline-none cursor-pointer"
               aria-label="Toggle Navigation Menu"
             >
               <svg
@@ -127,15 +127,18 @@ const HeroSection: React.FC = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2 w-full sm:w-auto">
-              <button className="w-full sm:w-auto bg-[#9bf072] text-[#132C24] font-medium text-[15px] sm:text-[16px] px-6 py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-opacity-90 transition">
+              <a
+                href="mailto:sales@gateshark.net"
+                className="w-full sm:w-auto bg-[#9bf072] text-[#132C24] font-medium text-[15px] sm:text-[16px] px-6 py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-opacity-90 transition cursor-pointer"
+              >
                 <img
                   src={heroData.primaryCtaIcon}
                   alt=""
                   className="w-4 h-4 object-contain"
                 />
                 <span>{heroData.primaryCtaText}</span>
-              </button>
-              <button className="w-full sm:w-auto border border-[#9BF072]/40 bg-transparent text-[#B2ED97] font-medium text-[15px] sm:text-[16px] px-3.5 py-2.5 sm:py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#9BF072]/10 transition-all">
+              </a>
+              <button className="w-full sm:w-auto border border-[#9BF072]/40 bg-transparent text-[#B2ED97] font-medium text-[15px] sm:text-[16px] px-3.5 py-2.5 sm:py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#9BF072]/10 transition-all cursor-pointer">
                 <img
                   src={heroData.secondaryCtaIcon}
                   alt=""

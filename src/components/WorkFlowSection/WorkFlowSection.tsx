@@ -53,14 +53,17 @@ const WorkflowSection: React.FC = () => {
           </div>
 
           <div>
-            <button className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 py-3 sm:py-3.5 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition">
+            <a
+              href="mailto:sales@gateshark.net"
+              className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 py-3 sm:py-3.5 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition cursor-pointer"
+            >
               <img
                 src={bannerData.ctaIcon}
                 alt=""
                 className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
               />
               <span>{bannerData.ctaText}</span>
-            </button>
+            </a>
           </div>
         </div>
 

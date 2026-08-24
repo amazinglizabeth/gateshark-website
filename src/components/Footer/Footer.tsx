@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
                 placeholder="Enter email address"
                 className="bg-transparent px-3 text-sm md:text-base font-normal w-full text-white focus:outline-none placeholder-gray-400"
               />
-              <button className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[15px] font-medium px-4 py-2.5 rounded-lg flex items-center justify-center gap-1.5 whitespace-nowrap shrink-0 hover:opacity-90 transition">
+              <button className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[15px] font-medium px-4 py-2.5 rounded-lg flex items-center justify-center gap-1.5 whitespace-nowrap shrink-0 hover:opacity-90 transition cursor-pointer">
                 <span>Subscribe</span>
                 <span>&gt;</span>
               </button>
