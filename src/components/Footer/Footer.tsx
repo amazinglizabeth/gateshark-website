@@ -7,12 +7,12 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto space-y-10 sm:space-y-12">
         {/* Top Row: Heading & Subscription */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-          <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-normal tracking-tight max-w-md leading-tight sm:leading-[1.15]">
+          <h2 className="font-inter text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-normal tracking-tight max-w-md leading-tight sm:leading-[1.15]">
             Stay updated with our latest news!
           </h2>
 
           <div className="w-full md:w-auto space-y-3">
-            <p className="text-base sm:text-[18px] md:text-[20px] font-medium text-white">
+            <p className="font-inter text-base sm:text-[18px] md:text-[20px] font-medium text-white">
               Subscribe to Newsletter!
             </p>
             <div className="flex items-center bg-[#1D3B31] p-1.5 rounded-xl w-full md:w-90">

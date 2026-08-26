@@ -8,7 +8,7 @@ const CTASection: React.FC = () => {
         className="max-w-7xl mx-auto rounded-3xl p-6 sm:p-12 md:p-16 text-center space-y-5 sm:space-y-6 text-gray-900 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${ctaData.bgImageUrl})` }}
       >
-        <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] text-[#132C24] font-medium max-w-2xl mx-auto leading-tight sm:leading-[1.15] tracking-tight">
+        <h2 className="font-inter text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] text-[#132C24] font-medium max-w-2xl mx-auto leading-tight sm:leading-[1.15] tracking-tight">
           {ctaData.title}
         </h2>
 

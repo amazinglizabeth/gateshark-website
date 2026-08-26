@@ -7,7 +7,7 @@ const AudienceSection: React.FC = () => {
       <div className="max-w-7xl mx-auto space-y-8 sm:space-y-12">
         {/* Header Content */}
         <div className="text-center space-y-3">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight text-[#132C25]">
+          <h2 className="font-inter text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight text-[#132C25]">
             {audienceHeader.title}
           </h2>
           <p className="font-gelix text-[#4A4A4A] text-sm sm:text-base md:text-[18px] font-normal max-w-xl mx-auto leading-relaxed">
