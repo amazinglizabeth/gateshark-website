@@ -44,7 +44,7 @@ const WorkflowSection: React.FC = () => {
         <div className="md:col-span-3 bg-[#1b5e39] text-white p-6 xs:p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between space-y-8 sm:space-y-10">
           <div className="space-y-4 sm:space-y-6 max-w-xl">
             {/* ─── Fixed Heading Responsiveness ─── */}
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium leading-tight sm:leading-[1.15]">
+            <h2 className="font-inter text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium leading-tight sm:leading-[1.15]">
               {bannerData.heading}
             </h2>
             <p className="font-gelix text-gray-200 text-sm sm:text-base md:text-[18px] leading-relaxed font-normal">

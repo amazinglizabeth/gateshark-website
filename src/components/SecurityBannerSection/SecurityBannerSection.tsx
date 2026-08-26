@@ -8,7 +8,7 @@ const SecurityBannerSection: React.FC = () => {
         {/* Left: Security Details Card */}
         <div className="md:col-span-5 bg-[#3d7e52] text-white p-6 sm:p-10 lg:p-12 rounded-[28px] flex flex-col justify-start md:justify-between gap-5 sm:gap-6 md:gap-8 min-h-0 md:min-h-105">
           <div className="space-y-3 sm:space-y-4">
-            <h2 className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight sm:leading-[1.1] whitespace-pre-line">
+            <h2 className="font-inter text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight sm:leading-[1.1] whitespace-pre-line">
               {securityBannerData.heading}
             </h2>
             <p className="font-gelix text-[#FFFFFFCC] text-sm md:text-base leading-relaxed font-normal whitespace-pre-line">

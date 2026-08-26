@@ -119,7 +119,7 @@ const HeroSection: React.FC = () => {
         {/* Hero Main Content */}
         <div className="pt-6 sm:pt-12 pb-10 sm:pb-20 px-3 sm:px-6">
           <div className="max-w-5xl mx-auto text-center space-y-4 sm:space-y-6">
-            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-[74px] font-medium tracking-tight max-w-4xl mx-auto leading-tight sm:leading-tight">
+            <h1 className="font-enter text-3xl sm:text-5xl md:text-6xl lg:text-[74px] font-medium tracking-tight max-w-4xl mx-auto leading-tight sm:leading-tight">
               {heroData.title}
             </h1>
             <p className="font-gelix text-gray-300 text-sm sm:text-[20px] font-normal max-w-2xl mx-auto px-2">
