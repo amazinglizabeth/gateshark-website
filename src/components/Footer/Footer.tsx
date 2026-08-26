@@ -7,21 +7,21 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto space-y-10 sm:space-y-12">
         {/* Top Row: Heading & Subscription */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
-          <h2 className="font-inter text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-normal tracking-tight max-w-md leading-tight sm:leading-[1.15]">
+          <h2 className="font-inter-tight text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-normal tracking-tight max-w-md leading-tight sm:leading-[1.15]">
             Stay updated with our latest news!
           </h2>
 
           <div className="w-full md:w-auto space-y-3">
-            <p className="font-inter text-base sm:text-[18px] md:text-[20px] font-medium text-white">
+            <p className="font-inter-tight text-base sm:text-[18px] md:text-[20px] font-medium text-white">
               Subscribe to Newsletter!
             </p>
-            <div className="flex items-center bg-[#1D3B31] p-1.5 rounded-xl w-full md:w-90">
+            <div className="font-inter-tight flex items-center bg-[#1D3B31] p-1.5 rounded-xl w-full md:w-90">
               <input
                 type="email"
                 placeholder="Enter email address"
                 className="bg-transparent px-3 text-sm md:text-base font-normal w-full text-white focus:outline-none placeholder-gray-400"
               />
-              <button className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[15px] font-medium px-4 py-2.5 rounded-lg flex items-center justify-center gap-1.5 whitespace-nowrap shrink-0 hover:opacity-90 transition cursor-pointer">
+              <button className="font-inter-tight bg-[#9bf072] text-[#132C24] text-sm sm:text-[15px] font-medium px-4 py-2.5 rounded-lg flex items-center justify-center gap-1.5 whitespace-nowrap shrink-0 hover:opacity-90 transition cursor-pointer">
                 <span>Subscribe</span>
                 <span>&gt;</span>
               </button>
@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
               />
             </a>
 
-            <div className="flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8">
+            <div className="font-inter-tight flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8">
               {footerLinks.map((link, idx) => (
                 <a
                   key={idx}
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Bottom Row: Copyright & Social Icons */}
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs sm:text-[13px] md:text-[14px] font-normal text-gray-400 pt-2">
+          <div className="font-inter-tight flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 text-xs sm:text-[13px] md:text-[14px] font-normal text-gray-400 pt-2">
             <p>© 2026 GateShark. All rights reserved.</p>
             <div className="flex items-center gap-3 text-white">
               {socialLinks.map((social, idx) => (

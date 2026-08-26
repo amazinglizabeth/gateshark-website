@@ -7,7 +7,7 @@ const FAQSection: React.FC = () => {
   return (
     <section id="faqs" className="py-12 sm:py-20 px-4 sm:px-6 bg-white">
       <div className="max-w-3xl mx-auto space-y-8 sm:space-y-10">
-        <h2 className="font-inter text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight text-center text-[#132C25]">
+        <h2 className="font-inter-tight text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight text-center text-[#132C25]">
           Frequently Asked <br /> Questions
         </h2>
 
@@ -19,7 +19,7 @@ const FAQSection: React.FC = () => {
             >
               <button
                 onClick={() => setOpenIdx(openIdx === idx ? null : idx)}
-                className="w-full text-left font-medium text-[15px] sm:text-[18px] text-[#132C24] flex justify-between items-center px-4 sm:px-5 pt-4 pb-3 cursor-pointer"
+                className="font-inter-tight w-full text-left font-medium text-[15px] sm:text-[18px] text-[#132C24] flex justify-between items-center px-4 sm:px-5 pt-4 pb-3 cursor-pointer"
               >
                 <span>{faq.question}</span>
                 <span className="text-xl font-normal leading-none ml-4 select-none">
@@ -28,7 +28,7 @@ const FAQSection: React.FC = () => {
               </button>
 
               {openIdx === idx && (
-                <div className="mx-2 mb-2 bg-white rounded-xl p-3.5 text-[#6D6D6D] font-normal text-sm sm:text-[16px] leading-relaxed">
+                <div className="font-inter-tight mx-2 mb-2 bg-white rounded-xl p-3.5 text-[#6D6D6D] font-normal text-sm sm:text-[16px] leading-relaxed">
                   {faq.answer}
                 </div>
               )}
