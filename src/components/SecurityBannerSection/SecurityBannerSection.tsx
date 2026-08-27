@@ -19,7 +19,7 @@ const SecurityBannerSection: React.FC = () => {
           <div>
             <a
               href="mailto:sales@gateshark.net"
-              className="font-inter-tight bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition cursor-pointer"
+              className="font-inter-tight inline-flex w-fit bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-6 py-3 rounded-xl items-center gap-2.5 hover:opacity-90 transition cursor-pointer"
             >
               <img
                 src={securityBannerData.ctaIcon}
