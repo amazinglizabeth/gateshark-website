@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat z-0 pointer-events-none"
         style={{ backgroundImage: `url("${heroData.bgImageUrl}")` }}
       />
-      <div className="absolute inset-0 w-full h-full bg-[radial-gradient(ellipse_at_top,#132C24_0%,transparent_75%)] opacity-80 pointer-events-none z-0" />
+      <div className="absolute inset-0 w-full h-full bg-[linear-gradient(to_right,#040b07_0%,#040b07_5%,#132C24_20%,rgba(19,44,36,0.30)_40%,rgba(19,44,36,0.30)_60%,#132C24_80%,#040b07_95%,#040b07_100%)] opacity-90 pointer-events-none z-0" />
 
       <div className="relative z-10">
         {/* Navigation Bar */}
@@ -119,7 +119,7 @@ const HeroSection: React.FC = () => {
         {/* Hero Main Content */}
         <div className="pt-6 sm:pt-12 pb-10 sm:pb-20 px-3 sm:px-6">
           <div className="max-w-5xl mx-auto text-center space-y-4 sm:space-y-6">
-            <h1 className="font-inter-tight text-3xl sm:text-5xl md:text-6xl lg:text-[74px] font-medium tracking-tight max-w-4xl mx-auto leading-tight sm:leading-tight">
+            <h1 className="font-inter-tight text-3xl sm:text-5xl md:text-6xl lg:text-[74px] font-medium tracking-tight max-w-4xl mx-auto leading-[1.05] sm:leading-[1.05]">
               {heroData.title}
             </h1>
             <p className="font-gelix-TRIAL text-gray-300 text-sm sm:text-[20px] font-normal max-w-2xl mx-auto px-2">
