@@ -3,6 +3,7 @@
 
 @theme {
   --font-sans: 'Inter Tight', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-gelix-TRIAL: 'Gelix TRIAL', 'Gelix', sans-serif;
 }
 
 html {
