@@ -33,7 +33,7 @@ const HeroSection: React.FC = () => {
             </a>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden md:flex items-center gap-8 text-[16px] font-normal text-gray-300">
+            <nav className="font-inter-tight hidden md:flex items-center gap-8 text-[16px] font-normal text-gray-300">
               {heroData.navItems.map((item, idx) => (
                 <a
                   key={idx}
@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
             <div className="hidden md:block">
               <a
                 href="#cta"
-                className="bg-[#9bf072] text-black font-medium text-[14px] sm:text-[16px] px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-lg hover:opacity-90 transition-opacity"
+                className="font-inter-tight bg-[#9bf072] text-black font-medium text-[14px] sm:text-[16px] px-3.5 sm:px-5 py-2 sm:py-2.5 rounded-lg hover:opacity-90 transition-opacity"
               >
                 Get Started
               </a>
@@ -119,17 +119,17 @@ const HeroSection: React.FC = () => {
         {/* Hero Main Content */}
         <div className="pt-6 sm:pt-12 pb-10 sm:pb-20 px-3 sm:px-6">
           <div className="max-w-5xl mx-auto text-center space-y-4 sm:space-y-6">
-            <h1 className="font-enter text-3xl sm:text-5xl md:text-6xl lg:text-[74px] font-medium tracking-tight max-w-4xl mx-auto leading-tight sm:leading-tight">
+            <h1 className="font-inter-tight text-3xl sm:text-5xl md:text-6xl lg:text-[74px] font-medium tracking-tight max-w-4xl mx-auto leading-tight sm:leading-tight">
               {heroData.title}
             </h1>
-            <p className="font-gelix text-gray-300 text-sm sm:text-[20px] font-normal max-w-2xl mx-auto px-2">
+            <p className="font-gelix-TRIAL text-gray-300 text-sm sm:text-[20px] font-normal max-w-2xl mx-auto px-2">
               {heroData.description}
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2 w-full sm:w-auto">
               <a
                 href="mailto:sales@gateshark.net"
-                className="w-full sm:w-auto bg-[#9bf072] text-[#132C24] font-medium text-[15px] sm:text-[16px] px-6 py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-opacity-90 transition cursor-pointer"
+                className="font-inter-tight w-full sm:w-auto bg-[#9bf072] text-[#132C24] font-medium text-[15px] sm:text-[16px] px-6 py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-opacity-90 transition cursor-pointer"
               >
                 <img
                   src={heroData.primaryCtaIcon}
@@ -138,7 +138,7 @@ const HeroSection: React.FC = () => {
                 />
                 <span>{heroData.primaryCtaText}</span>
               </a>
-              <button className="w-full sm:w-auto border border-[#9BF072]/40 bg-transparent text-[#B2ED97] font-medium text-[15px] sm:text-[16px] px-3.5 py-2.5 sm:py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#9BF072]/10 transition-all cursor-pointer">
+              <button className="font-inter-tight w-full sm:w-auto border border-[#9BF072]/40 bg-transparent text-[#B2ED97] font-medium text-[15px] sm:text-[16px] px-3.5 py-2.5 sm:py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-[#9BF072]/10 transition-all cursor-pointer">
                 <img
                   src={heroData.secondaryCtaIcon}
                   alt=""

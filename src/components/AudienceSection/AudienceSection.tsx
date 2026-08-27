@@ -7,10 +7,10 @@ const AudienceSection: React.FC = () => {
       <div className="max-w-7xl mx-auto space-y-8 sm:space-y-12">
         {/* Header Content */}
         <div className="text-center space-y-3">
-          <h2 className="font-inter text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight text-[#132C25]">
+          <h2 className="font-inter-tight text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight text-[#132C25]">
             {audienceHeader.title}
           </h2>
-          <p className="font-gelix text-[#4A4A4A] text-sm sm:text-base md:text-[18px] font-normal max-w-xl mx-auto leading-relaxed">
+          <p className="font-gelix-TRIAL text-[#4A4A4A] text-sm sm:text-base md:text-[18px] font-normal max-w-xl mx-auto leading-relaxed">
             {audienceHeader.description}
           </p>
         </div>
@@ -26,10 +26,10 @@ const AudienceSection: React.FC = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="font-medium text-lg sm:text-[24px] text-[#132C24]">
+              <h3 className="font-inter-tight font-medium text-lg sm:text-[24px] text-[#132C24]">
                 {card.title}
               </h3>
-              <p className="text-[#6D6D6D] text-sm sm:text-[16px] font-normal leading-tight whitespace-pre-line">
+              <p className="font-inter-tight text-[#6D6D6D] text-sm sm:text-[16px] font-normal leading-tight whitespace-pre-line">
                 {card.description}
               </p>
             </div>

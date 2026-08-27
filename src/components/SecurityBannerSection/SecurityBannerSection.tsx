@@ -8,10 +8,10 @@ const SecurityBannerSection: React.FC = () => {
         {/* Left: Security Details Card */}
         <div className="md:col-span-5 bg-[#3d7e52] text-white p-6 sm:p-10 lg:p-12 rounded-[28px] flex flex-col justify-start md:justify-between gap-5 sm:gap-6 md:gap-8 min-h-0 md:min-h-105">
           <div className="space-y-3 sm:space-y-4">
-            <h2 className="font-inter text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight sm:leading-[1.1] whitespace-pre-line">
+            <h2 className="font-inter-tight text-2xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium tracking-tight leading-tight sm:leading-[1.1] whitespace-pre-line">
               {securityBannerData.heading}
             </h2>
-            <p className="font-gelix text-[#FFFFFFCC] text-sm md:text-base leading-relaxed font-normal whitespace-pre-line">
+            <p className="font-gelix-TRIAL text-[#FFFFFFCC] text-sm md:text-base leading-relaxed font-normal whitespace-pre-line">
               {securityBannerData.description}
             </p>
           </div>
@@ -19,7 +19,7 @@ const SecurityBannerSection: React.FC = () => {
           <div>
             <a
               href="mailto:sales@gateshark.net"
-              className="bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition cursor-pointer"
+              className="font-inter-tight bg-[#9bf072] text-[#132C24] text-sm sm:text-[16px] font-medium px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl flex items-center gap-2.5 hover:opacity-90 transition cursor-pointer"
             >
               <img
                 src={securityBannerData.ctaIcon}
